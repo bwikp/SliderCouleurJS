@@ -1,0 +1,66 @@
+body,
+html {
+    margin: 0;
+}
+
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    color: black;
+    margin-top :  10px;
+ }
+
+ #top > div 
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+#rougeV {
+    background-color:rgba(232, 126, 126, 0.929);
+}
+
+#vertV{
+    background-color:rgba(124, 235, 137, 0.929);
+}
+
+#bleuV {
+    background-color:rgba(119, 146, 232, 0.929);
+}
+
+#boule1,#boule2{
+    margin-top: 100px;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: rgb(220, 150, 59);
+}
+
+
+#mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width:100%;
+
+}
+
+.active{
+    
+    border: solid white;
+}
